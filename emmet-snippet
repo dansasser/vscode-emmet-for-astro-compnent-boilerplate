@@ -1,0 +1,9 @@
+{  
+	"astro_component_boilerplate": {
+		"scope": "astro",
+		"prefix": "astro_component_bp",
+		"body":[
+			"---\n\t interface Props {\n\t\t ${1:prop_name}: ${2:type};\n\t\t ${3:prop_name}: ${4:type};\n\t\t ${5:prop_name}: ${6:type};\n\t\t ${7:prop_name}: ${8:type};\n\t};\n\n\t const { ${1:prop_name}, ${3:prop_name}, ${5:prop_name}, ${7:prop_name} } = Astro.props;\n\n---\n<!---html template goes here--->\n\n\t${0:start the tempate}"
+		]
+	}	
+}
